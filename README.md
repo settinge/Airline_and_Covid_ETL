@@ -1,24 +1,30 @@
 # ETL-Project
 ## Data Cleanup & Analysis
 
-Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
+Our group performed ETL on the following datasets:
 
-* The sources of data that you will extract from.
+* 1). A dataset (full_data.csv) on Coronavirus case information in various countries (kaggle) 
+  2). A dataset (airlines.csv) that contains a list of all airlines (kaggle)
+  3). A dataset (airports.csv) that contains a list of all airports (kaggle)
+  4). A dataset (routes.csv) that contains flight information (kaggle)
 
-* The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
+* The type of transformation needed for this data included:
 
-* The type of final production database to load the data into (relational or non-relational).
+  Airline Info ETL.pynb:
+
+  - Data was cleaned, manipulated and joined (airlines.csv, airports.csv, and routes.csv)
+  - Data was trimmed to only include necessary columns
+
+  Corona ETL.pynb
+
+  - Data was cleaned
+
+
+* The type of final production database to load the data into:
+
+ -Both sets of data were loaded into relational Postgres databases. A relational database was chosen because the data we received was highly structured and figured that Postgres would be the best option.
 
 * The final tables or collections that will be used in the production database.
 
-You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
+The names of the tables are: "airline_route_data" and "corona"
 
-## Project Report
-
-At the end of the week, your team will submit a Final Report that describes the following:
-
-* **E**xtract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
-
-* **T**ransform: what data cleaning or transformation was required.
-
-* **L**oad: the final database, tables/collections, and why this was chosen.
