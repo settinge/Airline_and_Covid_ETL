@@ -12,7 +12,7 @@
 
 5. Query both tables created in Postgres using a select statement
 
-4. 
+
 ## Data Cleanup & Analysis
 
 Our group performed ETL on the following datasets:
