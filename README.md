@@ -1,4 +1,18 @@
 # ETL-Project
+
+# How to Run Code
+
+1. Clone repository to a directory on your computer
+
+2. Download Postgres
+
+3. Update config files for your username and password in Postgres
+
+4. Navigate to ETL folder and run both jupyter notebooks in jupyter lab
+
+5. Query both tables created in Postgres using a select statement
+
+4. 
 ## Data Cleanup & Analysis
 
 Our group performed ETL on the following datasets:
