@@ -28,3 +28,9 @@ Our group performed ETL on the following datasets:
 
 The names of the tables are: "airline_route_data" and "corona"
 
+## Screenshots
+
+![ScreenShot](Corona Screenshot .JPG)
+
+This is a screenshot of the table that was created in Postgres with Covid-19 data as a result of the ETL project
+
